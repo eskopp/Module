@@ -1,0 +1,17 @@
+---
+title: Beispielmodul
+description: Platzhalter für die Modulstruktur mit Hausaufgaben, Übung und Praktikum.
+typ: modul
+sidebar:
+  order: 0
+---
+
+import { LinkCard, CardGrid } from '@astrojs/starlight/components';
+
+Dies ist ein **Platzhalter**. Jedes Modul hat bis zu drei Bereiche. Nicht jedes Modul braucht alle drei.
+
+<CardGrid>
+  <LinkCard title="Hausaufgaben" description="Die Hausaufgabenserie dieses Moduls." href="/beispielmodul/ha/" />
+  <LinkCard title="Übung" description="Die Übungsserie dieses Moduls." href="/beispielmodul/uebung/" />
+  <LinkCard title="Praktikum" description="Praktikumsaufgaben, falls vorhanden." href="/beispielmodul/praktikum/" />
+</CardGrid>

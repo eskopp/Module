@@ -1,0 +1,20 @@
+{
+  "name": "module",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/markdown-satteri": "^0.4.10",
+    "@astrojs/starlight": "^0.43.1",
+    "@nullpinter/satteri-katex": "^0.3.0",
+    "astro": "^7.3.6",
+    "katex": "^0.19.1",
+    "sharp": "^0.35.3"
+  }
+}
